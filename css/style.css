@@ -36,11 +36,22 @@
 
 
 
-.ms_content {
+.ms_content_top {
     background-color: blue;
     height: 200px;
     margin-left: 80px;
     padding: 1px 16px;
+    
+}
+
+
+.ms_content_bot {
+    
+    margin-left: 100px;
+    width: 90%;
+    
+    
+    
     
 }
 
