@@ -3,20 +3,24 @@
 }
 
 .ms_bar {
-    width: 60vw;
+    width: 80vw;
     padding: 5px;
     border-radius: 5px;
     background-color: rgb(228, 228, 228);
     border: none;
+    margin: auto;
+ 
+}
+
+.ms_bell{
+    font-size: 20px;
+    margin-right: 20px; 
+    width: 100%; 
+    
 }
 
 #ms_main {
-
-    background-color: rgb(20, 25, 34);
-    height: 100vh;
     width: 100vw;
-    
-
 }
 
 .ms_sidebar {
@@ -35,6 +39,8 @@
 .ms_content {
     background-color: blue;
     height: 200px;
+    margin-left: 80px;
+    padding: 1px 16px;
     
 }
 
