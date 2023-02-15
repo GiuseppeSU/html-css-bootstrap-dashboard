@@ -1,0 +1,11 @@
+.ms_img_size{
+    height: 50px;
+}
+
+.ms_bar{
+    width: 80vw;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(228, 228, 228);
+    border: none;
+}
