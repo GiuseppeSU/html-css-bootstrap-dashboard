@@ -17,14 +17,21 @@
 <body>
     <header>
         <nav class=" bg-body-tertiary">
-            <div class="d-flex align-items-center justify-content-between">
-                <img class="ms_img_size mx-1" src="./img/mobile-logo.png" alt="Mobile logo Boolean">
-                <form class="">
-                    <input class="ms_bar " type=" search" placeholder=" Search" aria-label="Search">
+            <div class="container-fluid d-flex">
+                <img class="ms_img_size" src="./img/mobile-logo.png" alt="Mobile logo Boolean">
+                <img class="ms_img_desk" src="./img/logo.svg" alt="Logo boolean desktop">
+                <form class="container-fluid d-flex align-content-center">
+                  <div class="input-group ms_bar">
+                    <span class="input-group-text ms_grey" id="basic-addon1"><i class="fa-solid fa-magnifying-glass text-dark"></i></span>
+                    <input type="text" class="form-control ms_grey" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
                 </form>
-                <div class="dropdown">
-                    <button class="btn" data-bs-toggle="dropdown">
-                        <i class="fa-solid fa-bell text-warning ms_bell"></i>
+                <div class="dropdown d-flex justify-content-center align-items-center ms_container_items">
+                    <button class="btn d-flex " data-bs-toggle="dropdown">
+                      <i class="fa-solid fa-list ms_items"></i>
+                      <i class="fa-solid fa-circle-question ms_items"></i>
+                      <i class="fa-solid fa-ellipsis-vertical ms_items"></i>
+                      <i class="fa-solid fa-bell text-warning ms_bell"></i>
                     </button>
                     <ul class="dropdown-menu">
                         <li><button class="dropdown-item" type="button">Action</button></li>
@@ -47,54 +54,7 @@
 
            
 
-        <!-- Page content -->
-        <div class="ms_content_top container-fluid">
-            <div class="row">
-                <div class="col d-flex mt-4">
-                    <h3>Nuovo Studente</h3>
-                    <button class="btn-primary px-4 mx-4"></button>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- CARD GRAFICI -->
-        <div class="card ms_content_bot container-fluid mt-4">
-            <div class="card-header">
-              Featured
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-
-           <!-- CARD FAQ -->
-
-           <div class="card ms_content_bot container-fluid mt-4">
-            <div class="card-header">
-              Featured
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-
-          <!-- CARD TODO -->
-          <div class="card ms_content_bot container-fluid mt-4">
-            <div class="card-header">
-              Featured
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-
+      
     </main>
 
 
