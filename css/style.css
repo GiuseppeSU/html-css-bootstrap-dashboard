@@ -8,8 +8,6 @@
     max-width: 60px;
 }
 
-
-
 .ms_bar {
     width: 90%;
     padding: 5px;
@@ -39,10 +37,6 @@
     width: 100%; 
 }
 
-#ms_main {
-    width: 100vw;
-}
-
 .ms_sidebar {
     margin: 0;
     padding: 0;
@@ -63,26 +57,58 @@
     height: 100%;
 }
 
+.ms_content{
+    width: 100%;
+    
+   
+}
 
+.ms_btn{
+    background-color: rgb(13, 110, 253);
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px 9px;
+   
+    
+    
+    
+    
+}
 
-
-.ms_content_top {
-    background-color: blue;
-    height: 400px;
-    margin-left: 80px;
-    padding: 1px 16px;
+.fa-plus{
+    font-size: 15px;
     
 }
 
 
-.ms_content_bot {
+.ms_bread{
+    border: none;
+    border-radius: 15px;
     
-    margin-left: 100px;
-    width: 90%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 91, 186);
+    font-size: 15px
+    
 }
 
-
-
+.ms_bread2{
+    border: none;
+    border-radius: 15px;
+    padding: 0px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 91, 186);
+    font-size: 12px;
+    
+}
+.ms_bread3{
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 91, 186);
+    font-size: 12px;
+    
+}
 
 
 
@@ -101,6 +127,15 @@
         display: none;
     }
 
+    .ms_content{
+        margin-left: 80px;
+    }
+
+    .ms_content .ms_app{
+        display: none;
+    }
+   
+
 
 
 }
@@ -117,6 +152,16 @@
     aside .ms_text{
         display: none;
     }
+
+    .ms_content{
+        margin-left: 80px;
+    }
+
+    .ms_content .ms_app{
+        display: none;
+    }
+    
+
 
 
 
@@ -138,6 +183,25 @@
     aside .ms_text{
         display: none;
     }
+    .ms_content{
+        margin-left: 80px;
+    }
+
+   .ms_content .ms_boolean{
+    order: -2;
+   }
+
+   .ms_content .ms_student{
+    order: -1;
+   }
+   .ms_content .ms_app{
+    display: none;
+}
+
+
+
+
+
 
 
 
@@ -178,6 +242,19 @@
         height: 65%;
         
     }
+    .ms_content{
+        margin-left: 150px;
+    }
+
+    .ms_content .ms_app2{
+        display: none;
+    }
+
+    .ms_content .ms_app{
+        display: block;
+    }
+
+    
   
     
 }
