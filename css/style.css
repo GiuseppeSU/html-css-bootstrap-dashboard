@@ -1,6 +1,14 @@
+.ms_navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
 .ms_img_size {
     max-width: 60px;
 }
+
+
 
 .ms_bar {
     width: 90%;
@@ -39,10 +47,20 @@
     margin: 0;
     padding: 0;
     width: 80px;
-    background-color: black;
+    background-color: rgb(7, 32, 53);
     position: fixed;
     height: 100%;
-    overflow: auto;
+}
+
+.ms_img_side{
+    max-width: 80px;
+}
+
+.ms_gear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 
@@ -79,6 +97,10 @@
         display: none;
     }
 
+    aside .ms_text{
+        display: none;
+    }
+
 
 
 }
@@ -89,6 +111,10 @@
     }
 
     .ms_container_items .ms_items{
+        display: none;
+    }
+
+    aside .ms_text{
         display: none;
     }
 
@@ -106,6 +132,10 @@
     }
 
     .ms_container_items .ms_items{
+        display: none;
+    }
+
+    aside .ms_text{
         display: none;
     }
 
@@ -128,19 +158,25 @@
     .ms_container_items .ms_items{
         display: block;
     }
-
-
-
-
-
+    
     main .ms_sidebar{
         width: 150px;
-        margin: 0;
-        padding: 0;
-        background-color: black;
-        position: fixed;
-        height: 100%;
-        overflow: auto;
+        
+    }
+
+    aside .ms_text{
+        display: block;
+    }
+
+    aside .ms_img_side{
+        max-width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    aside .ms_gear{
+        height: 65%;
+        
     }
   
     
