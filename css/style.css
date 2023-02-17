@@ -6,7 +6,7 @@
 }
 
 .ms_img_size {
-    max-width: 60px;
+        max-width: 45px;
 }
 
 .ms_bar {
@@ -150,10 +150,15 @@
 
     div .ms_canvas {
         width: 100%;
+        z-index: 99999;
     }
 
     .row  .ms_canvas {
         width: 100%;
+    }
+    .ms_content2 {
+        margin-top: 250px;
+        
     }
 
 
@@ -191,6 +196,7 @@
     }
     .row  .ms_canvas {
         width: 100%;
+        z-index: 99999;
     }
 
 
@@ -220,7 +226,7 @@
         margin-left: 80px;
     }
     .ms_content2 {
-        margin-top: 150px;
+        margin-top: 130px;
         
     }
 
@@ -242,6 +248,7 @@
 
     .row  .ms_canvas {
         width: 100%;
+         z-index: 99999;
     }
 
 
@@ -295,12 +302,12 @@
 
     
     .ms_content2 {
-        margin-top: 120px;
+        margin-top: 140px;
         
     }
 
     .ms_content_todo{
-        margin-top: 120px;
+        margin-top: 140px;
     }
 
 
