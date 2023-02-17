@@ -1,4 +1,4 @@
-.ms_navbar{
+.ms_navbar {
     width: 100%;
     height: 70px;
     display: flex;
@@ -15,157 +15,171 @@
     border-radius: 5px;
     border: none;
     margin: auto;
-    
+
 }
 
-.ms_grey{
+.ms_grey {
     background-color: rgb(229, 229, 229);
 
 }
 
-.ms_container_items i{
+.ms_container_items i {
     margin: 0px 10px;
 
 }
 
-.ms_items{
+.ms_items {
     color: rgb(91, 88, 88);
 }
 
-.ms_bell{
+.ms_bell {
     font-size: 20px;
-    margin-right: 20px; 
-    width: 100%; 
+    margin-right: 20px;
+    width: 100%;
 }
 
 .ms_sidebar {
     margin: 0;
     padding: 0;
-    width: 80px;
+    width:calc(100%-80px);
     background-color: rgb(7, 32, 53);
+    float: left;
+    height: 100vh;
     position: fixed;
-    height: 100%;
+    
 }
 
-.ms_img_side{
+.ms_img_side {
     max-width: 80px;
 }
 
-.ms_gear{
+.ms_gear {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    
 }
 
 
-.ms_btn{
+.ms_btn {
     background-color: rgb(13, 110, 253);
     border-radius: 5px;
     border: 1px solid white;
     padding: 5px 9px;
-   
-    
-    
-    
-    
+
+
+
+
+
 }
 
-.fa-plus{
+.fa-plus {
     font-size: 15px;
-    
+
 }
 
 
-.ms_bread{
+.ms_bread {
     border: none;
     border-radius: 15px;
-    
+
     color: rgb(255, 255, 255);
     background-color: rgb(22, 91, 186);
     font-size: 15px
-    
 }
 
-.ms_bread2{
+.ms_bread2 {
     border: none;
     border-radius: 15px;
     padding: 0px 10px;
     color: rgb(255, 255, 255);
     background-color: rgb(22, 91, 186);
     font-size: 12px;
-    
+
 }
-.ms_bread3{
+
+.ms_bread3 {
     border: none;
     border-radius: 30px;
     padding: 5px 10px;
     color: rgb(255, 255, 255);
     background-color: rgb(22, 91, 186);
     font-size: 12px;
-    
+
 }
+
+
 
 
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:576px) {
-    nav .ms_img_desk{
+    nav .ms_img_desk {
         display: none;
     }
 
-    .ms_container_items .ms_items{
+    .ms_container_items .ms_items {
         display: none;
     }
 
-    aside .ms_text{
+    aside .ms_text {
         display: none;
     }
 
-    .ms_content{
+    .ms_content {
         margin-left: 80px;
     }
 
-    .ms_content .ms_app{
+    .ms_content .ms_app {
         display: none;
     }
 
-    tr .ms_td{
+    tr .ms_td {
         display: none;
     }
-   
+
+    div .ms_canvas {
+        width: 100%;
+    }
+
+    .row  .ms_canvas {
+        width: 100%;
+    }
+
 
 
 
 }
 
 @media screen and (min-width:576px) {
-    nav .ms_img_desk{
+    nav .ms_img_desk {
         display: none;
     }
 
-    .ms_container_items .ms_items{
+    .ms_container_items .ms_items {
         display: none;
     }
 
-    aside .ms_text{
+    aside .ms_text {
         display: none;
     }
 
-    .ms_content{
+    .ms_content {
         margin-left: 80px;
     }
 
-    .ms_content .ms_app{
+    .ms_content .ms_app {
         display: none;
     }
 
-    tr .ms_td{
+    tr .ms_td {
         display: none;
     }
-   
-    
+    .row  .ms_canvas {
+        width: 100%;
+    }
+
 
 
 
@@ -177,35 +191,41 @@
 
 
 @media screen and (min-width:768px) {
-    nav .ms_img_desk{
+    nav .ms_img_desk {
         display: none;
     }
 
-    .ms_container_items .ms_items{
+    .ms_container_items .ms_items {
         display: none;
     }
 
-    aside .ms_text{
+    aside .ms_text {
         display: none;
     }
-    .ms_content{
+
+    .ms_content {
         margin-left: 80px;
     }
 
-   .ms_content .ms_boolean{
-    order: -2;
-   }
+    .ms_content .ms_boolean {
+        order: -2;
+    }
 
-   .ms_content .ms_student{
-    order: -1;
-   }
-   .ms_content .ms_app{
-    display: none;
-}
+    .ms_content .ms_student {
+        order: -1;
+    }
 
-tr .ms_td{
-    display: block;
-}
+    .ms_content .ms_app {
+        display: none;
+    }
+
+    tr .ms_td {
+        display: block;
+    }
+
+    .row  .ms_canvas {
+        width: 100%;
+    }
 
 
 
@@ -219,56 +239,70 @@ tr .ms_td{
 
 @media screen and (min-width:992px) {
 
-    nav .ms_img_size{
+    nav .ms_img_size {
         display: none;
     }
 
 
-    nav .ms_img_desk{
+    nav .ms_img_desk {
         display: block;
     }
 
-    .ms_container_items .ms_items{
+    .ms_container_items .ms_items {
         display: block;
     }
-    
-    main .ms_sidebar{
+
+    main .ms_sidebar {
         width: 150px;
-        
+
     }
 
-    aside .ms_text{
+    aside .ms_text {
         display: block;
     }
 
-    aside .ms_img_side{
+    aside .ms_img_side {
         max-width: 150px;
         display: flex;
         justify-content: center;
     }
 
-    aside .ms_gear{
+    aside .ms_gear {
         height: 65%;
-        
+
     }
-    .ms_content{
+
+    .ms_content {
         margin-left: 150px;
     }
 
-    .ms_content .ms_app2{
+    
+    .ms_content2 {
+        margin-top: 120px;
+        
+    }
+
+
+    .ms_content .ms_app2 {
         display: none;
     }
 
-    .ms_content .ms_app{
+    .ms_content .ms_app {
         display: block;
     }
 
-    tr .ms_td{
+    tr .ms_td {
         display: block;
     }
 
-    
+    .row  .ms_canvas {
+        width: 50%;
+    }
+
+
   
-    
-}
 
+
+
+
+}
