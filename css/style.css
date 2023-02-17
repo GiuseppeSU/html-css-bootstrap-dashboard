@@ -15,6 +15,7 @@
     border-radius: 5px;
     border: none;
     margin: auto;
+   
 
 }
 
@@ -42,6 +43,7 @@
     margin: 0;
     padding: 0;
     width:calc(100%-80px);
+    
     background-color: rgb(7, 32, 53);
     float: left;
     height: 100vh;
@@ -57,6 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     
 }
 
@@ -107,6 +110,12 @@
     font-size: 12px;
 
 }
+
+#ms_main{
+    padding-top: 47px;
+    width: 100%;
+}
+
 
 
 
@@ -168,6 +177,10 @@
     .ms_content {
         margin-left: 80px;
     }
+    .ms_content2 {
+        margin-top: 250px;
+        
+    }
 
     .ms_content .ms_app {
         display: none;
@@ -205,6 +218,10 @@
 
     .ms_content {
         margin-left: 80px;
+    }
+    .ms_content2 {
+        margin-top: 150px;
+        
     }
 
     .ms_content .ms_boolean {
@@ -280,6 +297,10 @@
     .ms_content2 {
         margin-top: 120px;
         
+    }
+
+    .ms_content_todo{
+        margin-top: 120px;
     }
 
 

@@ -15,311 +15,317 @@
 </head>
 
 <body>
-  <header>
-    <nav class=" bg-body-tertiary">
-      <div class="container-fluid d-flex">
-        <img class="ms_img_size" src="./img/mobile-logo.png" alt="Mobile logo Boolean">
-        <img class="ms_img_desk" src="./img/logo.svg" alt="Logo boolean desktop">
-        <form class="container-fluid d-flex align-content-center">
-          <div class="input-group ms_bar">
-            <span class="input-group-text ms_grey" id="basic-addon1"><i
-                class="fa-solid fa-magnifying-glass text-dark"></i></span>
-            <input type="text" class="form-control ms_grey" placeholder="Prova a cercare: Lezioni di Laravel"
-              aria-label="Username" aria-describedby="basic-addon1">
+  <div class="container-fluid p-0">
+    <header>
+      <nav class=" bg-body-tertiary position-fixed z-2 w-100">
+  
+        <div class="container-fluid d-flex">
+  
+  
+          <img class="ms_img_size" src="./img/mobile-logo.png" alt="Mobile logo Boolean">
+          <img class="ms_img_desk" src="./img/logo.svg" alt="Logo boolean desktop">
+          <form class="container-fluid d-flex align-content-center">
+            <div class="input-group ms_bar">
+              <span class="input-group-text ms_grey" id="basic-addon1"><i
+                  class="fa-solid fa-magnifying-glass text-dark"></i></span>
+              <input type="text" class="form-control ms_grey" placeholder="Prova a cercare: Lezioni di Laravel"
+                aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </form>
+          <div class="dropdown d-flex justify-content-center align-items-center ms_container_items">
+            <button class="btn d-flex " data-bs-toggle="dropdown">
+              <i class="fa-solid fa-list ms_items"></i>
+              <i class="fa-solid fa-circle-question ms_items"></i>
+              <i class="fa-solid fa-ellipsis-vertical ms_items"></i>
+              <i class="fa-solid fa-bell text-warning ms_bell"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button">Action</button></li>
+              <li><button class="dropdown-item" type="button">Another action</button></li>
+              <li><button class="dropdown-item" type="button">Something else here</button></li>
+            </ul>
           </div>
-        </form>
-        <div class="dropdown d-flex justify-content-center align-items-center ms_container_items">
-          <button class="btn d-flex " data-bs-toggle="dropdown">
-            <i class="fa-solid fa-list ms_items"></i>
-            <i class="fa-solid fa-circle-question ms_items"></i>
-            <i class="fa-solid fa-ellipsis-vertical ms_items"></i>
-            <i class="fa-solid fa-bell text-warning ms_bell"></i>
-          </button>
-          <ul class="dropdown-menu">
-            <li><button class="dropdown-item" type="button">Action</button></li>
-            <li><button class="dropdown-item" type="button">Another action</button></li>
-            <li><button class="dropdown-item" type="button">Something else here</button></li>
-          </ul>
         </div>
-      </div>
-    </nav>
-  </header>
-
-
-  <!-- INIZIO MAIN -->
-
-  <main id="ms_main">
-
-    <!-- The sidebar -->
-
-    <aside class="ms_sidebar">
-
-      <div class="text-white d-flex justify-content-center mt-4">
-        <i class="fa-solid fa-house fs-5"></i>
-        <span class="ms_text ms-3">Home</span>
-      </div>
-
-      <div class="text-white fs-5 d-flex justify-content-center align-items-center mt-4 ">
-        <i class="fa-solid fa-chart-simple"></i>
-        <span class="ms_text ms-3">Stats</span>
-      </div>
-
-      <div class=" text-white fs-5 d-flex justify-content-center align-items-center mt-4">
-        <i class="fa-solid fa-signal"></i>
-        <span class="ms_text ms-3">Signal</span>
-      </div>
-      <div class=" d-flex justify-content-start">
-        <img class="ms_img_side" src="./img/sidebar-bg.png" alt="">
-      </div>
-
-      <div class=" text-white fs-5 ms_gear container mt-4 ">
-        <i class="fa-solid fa-gear"></i>
-        <span class="ms_text ms-3">Admin</span>
-      </div>
-    </aside>
-
-    <!-- The sidebar -->
-
-
-    <!-- Content-top -->
-
-    <div class=" ms_content bg-primary position-fixed w-100 z-1 ">
-      <div class="container-fluid">
-        <div class="row ">
-          <div class="col-sm-12 col-md-3 mt-3  ">
-            <span class="text-white fs-5 align-middle">Nuovo studente</span>
-            <button class="btn btn-primary  ms_btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                aria-controls="offcanvasRight ms_canvas"><i class="fa-solid fa-plus text-white"></i></button>
-                <div class="offcanvas offcanvas-end ms_canvas" tabindex="-1" id="offcanvasRight"
-                aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo utente</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  
+        <aside class="ms_sidebar">
+  
+          <div class="text-white d-flex justify-content-center mt-4">
+            <i class="fa-solid fa-house fs-5"></i>
+            <span class="ms_text ms-3">Home</span>
+          </div>
+    
+          <div class="text-white fs-5 d-flex justify-content-center align-items-center mt-4 ">
+            <i class="fa-solid fa-chart-simple"></i>
+            <span class="ms_text ms-3">Stats</span>
+          </div>
+    
+          <div class=" text-white fs-5 d-flex justify-content-center align-items-center mt-4">
+            <i class="fa-solid fa-signal"></i>
+            <span class="ms_text ms-3">Signal</span>
+          </div>
+          <div class=" d-flex justify-content-start">
+            <img class="ms_img_side" src="./img/sidebar-bg.png" alt="">
+          </div>
+    
+          <div class=" text-white fs-5 ms_gear container mt-4 ">
+            <i class="fa-solid fa-gear"></i>
+            <span class="ms_text ms-3">Admin</span>
+          </div>
+        </aside>
+  
+  
+      </nav>
+    </header>
+  
+  
+    <!-- INIZIO MAIN -->
+  
+    <main id="ms_main">
+  <!-- Content-top -->
+  
+       <!-- <div class=" ms_content bg-primary position-fixed w-100 z-1 ">
+        <div class="container-fluid">
+          
+  
+        </div>
+      </div>  -->
+      <!-- Content -top -->
+  
+  
+      <!-- Content-bottom -->
+      <div class=" ms_content ms_content_bottom ">
+        <div class="container-fluid">
+          <div class="row  bg-primary position-fixed w-100 z-1">
+            <div class="col-sm-12 col-md-3 mt-3  ">
+              <span class="text-white fs-5 align-middle">Nuovo studente</span>
+              <button class="btn btn-primary  ms_btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight ms_canvas"><i class="fa-solid fa-plus text-white"></i></button>
+                  <div class="offcanvas offcanvas-end ms_canvas" tabindex="-1" id="offcanvasRight"
+                  aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo utente</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <form>
+                      <div class="row w-50">
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                      </div>
+                    </form>
+  
+                    
+                  </div>
                 </div>
-                <div class="offcanvas-body">
-                  <form>
-                    <div class="row w-50">
-                      <div class="col">
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Nome</label>
-                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </button>
+            </div>
+            <div class=" col-sm-12 col-md-5 ms_boolean mt-4 mb-4">
+              <div class="d-flex align-items-center">
+                <h2 class="text-white fs-3 ">Boolean</h2>
+                <button class="ms_bread ms-2 ">Piano blaze</button>
+              </div>
+  
+              <div class="d-flex align-items-center ">
+                <button class="ms_bread2 me-1">3 app</button>
+                <i class="fa-solid fa-chevron-right text-white"></i>
+                <i class="fa-solid fa-chevron-right text-white"></i>
+                <button class="ms_bread3 ms_app2 ms-2"><i class="fa-solid fa-plus"></i></button>
+                <button class="ms_bread2 ms_app me-1 ms-2">Boolean mobile app</button>
+                <button class="ms_bread2 ms_app me-1">Boolean web app</button>
+                <button class="ms_bread2 ms_app me-1">Boolean blog app</button>
+  
+              </div>
+            </div>
+  
+            <div class="col-sm-12 col-md-4 text-white ms_student mt-3 ">
+              <span>Studenti online negli ultimi 30 minuti</span>
+              <h2>125</h2>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-12 col-md-12 col-lg-7 ms_content2">
+    
+              <div class="card">
+                <div class="card-header">
+                  Prossime Classi
+                </div>
+                <div class="card-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th class="w-50" scope="col">Nome</th>
+                        <th class="ms_td" scope="col">Roi</th>
+                        <th scope="col">Stato</th>
+                        <th scope="col">Azioni</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="ms_td" scope="row">1</th>
+    
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th class="ms_td" scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th class="ms_td" scope="row">3</th>
+                        <td colspan="2">Larry the</td>
+                        <td>@twitter</td>
+    
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="card mt-3 mb-2">
+                <div class="card-header">
+                  F.A.Q.
+                </div>
+                <div class="card-body">
+                  <div class="accordion" id="accordionExample">
+    
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Come aggiungere un nuovo studente?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                          collapse plugin adds the appropriate classes that we use to style each element. These classes
+                          control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                          modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                          that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                          does limit overflow.
                         </div>
-                        <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
                       </div>
                     </div>
-                  </form>
-
-                  
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Come posso accedere alle informazioni del mio account?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                          collapse plugin adds the appropriate classes that we use to style each element. These classes
+                          control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                          modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                          that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingfour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                          Possiamo accedere da tutti i dispositi?
+                        </button>
+                      </h2>
+                      <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong> NO! This is the third item's accordion body.</strong> It is hidden by default, until the
+                          collapse plugin adds the appropriate classes that we use to style each element. These classes
+                          control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                          modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                          that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
                 </div>
               </div>
-            </button>
-          </div>
-          <div class=" col-sm-12 col-md-5 ms_boolean mt-4 mb-4">
-            <div class="d-flex align-items-center">
-              <h2 class="text-white fs-3 ">Boolean</h2>
-              <button class="ms_bread ms-2 ">Piano blaze</button>
             </div>
-
-            <div class="d-flex align-items-center ">
-              <button class="ms_bread2 me-1">3 app</button>
-              <i class="fa-solid fa-chevron-right text-white"></i>
-              <i class="fa-solid fa-chevron-right text-white"></i>
-              <button class="ms_bread3 ms_app2 ms-2"><i class="fa-solid fa-plus"></i></button>
-              <button class="ms_bread2 ms_app me-1 ms-2">Boolean mobile app</button>
-              <button class="ms_bread2 ms_app me-1">Boolean web app</button>
-              <button class="ms_bread2 ms_app me-1">Boolean blog app</button>
-
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-4 text-white ms_student mt-3 ">
-            <span>Studenti online negli ultimi 30 minuti</span>
-            <h2>125</h2>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <!-- Content -top -->
-
-
-    <!-- Content-bottom -->
-    <div class=" ms_content ">
-      <div class="row ">
-        <div class="col-12 col-md-12 col-lg-7 ms_content2">
-
-          <div class="card">
-            <div class="card-header">
-              Prossime Classi
-            </div>
-            <div class="card-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th class="w-50" scope="col">Nome</th>
-                    <th class="ms_td" scope="col">Roi</th>
-                    <th scope="col">Stato</th>
-                    <th scope="col">Azioni</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th class="ms_td" scope="row">1</th>
-
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th class="ms_td" scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                    <th class="ms_td" scope="row">3</th>
-                    <td colspan="2">Larry the</td>
-                    <td>@twitter</td>
-
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="card mt-3">
-            <div class="card-header">
-              F.A.Q.
-            </div>
-            <div class="card-body">
-              <div class="accordion" id="accordionExample">
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Come aggiungere un nuovo studente?
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                      collapse plugin adds the appropriate classes that we use to style each element. These classes
-                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                      does limit overflow.
-                    </div>
-                  </div>
+            <div class="col-sm-12 col-md-12 col-lg-4  ms_content_todo">
+              <div class="card">
+                <div class="card-header">
+                  Todo
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Come posso accedere alle informazioni del mio account?
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                      collapse plugin adds the appropriate classes that we use to style each element. These classes
-                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                      does limit overflow.
-                    </div>
-                  </div>
+                <ul class="list-group m-2">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                    <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                    <label class="form-check-label" for="secondCheckbox">Lezione su Boostrap 5 in classe #75</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                    <label class="form-check-label" for="thirdCheckbox">Controllare usurname github studenti</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="card p-2 mt-3">
+                <img src="img/stats.jpeg" class="card-img-top" alt="Grafico">
+                <div class="card-body">
+                  <h5 class="card-title">Utenti Attivi</h5>
+                  <p class="card-text">Lista dagli utenti attivi in piattaforma nell'ultimo mese</p>
                 </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingfour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                      Possiamo accedere da tutti i dispositi?
-                    </button>
-                  </h2>
-                  <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong> NO! This is the third item's accordion body.</strong> It is hidden by default, until the
-                      collapse plugin adds the appropriate classes that we use to style each element. These classes
-                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                      does limit overflow.
-                    </div>
-                  </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Gennaio: 1200</li>
+                  <li class="list-group-item">Febbraio: 800</li>
+                  <li class="list-group-item">Marzo: 1500</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Visualizza il report approfondito</a>
+    
                 </div>
               </div>
+            </div>
+          </div>
 
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-4 ms_content2">
-          <div class="card">
-            <div class="card-header">
-              Todo
-            </div>
-            <ul class="list-group m-2">
-              <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
-              </li>
-              <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                <label class="form-check-label" for="secondCheckbox">Lezione su Boostrap 5 in classe #75</label>
-              </li>
-              <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                <label class="form-check-label" for="thirdCheckbox">Controllare usurname github studenti</label>
-              </li>
-            </ul>
-          </div>
-          <div class="card p-2 mt-3">
-            <img src="img/stats.jpeg" class="card-img-top" alt="Grafico">
-            <div class="card-body">
-              <h5 class="card-title">Utenti Attivi</h5>
-              <p class="card-text">Lista dagli utenti attivi in piattaforma nell'ultimo mese</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Gennaio: 1200</li>
-              <li class="list-group-item">Febbraio: 800</li>
-              <li class="list-group-item">Marzo: 1500</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Visualizza il report approfondito</a>
-
-            </div>
-          </div>
         </div>
       </div>
-    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+      <!-- Content-bottom fine -->
+  
+  
+  
+  
+  
+  
+  
+    </main>
 
-
-
-
-
-
-
-
-    <!-- Content-bottom fine -->
-
-
-
-
-
-
-
-  </main>
+  </div>
 
 
 
