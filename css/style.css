@@ -130,6 +130,10 @@
     .ms_content .ms_app{
         display: none;
     }
+
+    tr .ms_td{
+        display: none;
+    }
    
 
 
@@ -156,6 +160,11 @@
     .ms_content .ms_app{
         display: none;
     }
+
+    tr .ms_td{
+        display: none;
+    }
+   
     
 
 
@@ -192,6 +201,10 @@
    }
    .ms_content .ms_app{
     display: none;
+}
+
+tr .ms_td{
+    display: block;
 }
 
 
@@ -247,6 +260,10 @@
     }
 
     .ms_content .ms_app{
+        display: block;
+    }
+
+    tr .ms_td{
         display: block;
     }
 
