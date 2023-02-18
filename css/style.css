@@ -251,6 +251,14 @@
          z-index: 99999;
     }
 
+    .table .ms_order{
+       
+        
+    }
+
+  
+    
+
   
    
 
@@ -331,8 +339,12 @@
 
       table .ms_td {
         display: revert;
+        
+        
     }
-
+        
+       
+    
     
     
 
