@@ -15,8 +15,6 @@
     border-radius: 5px;
     border: none;
     margin: auto;
-   
-
 }
 
 .ms_grey {
@@ -43,13 +41,24 @@
     margin: 0;
     padding: 0;
     width:calc(100%-80px);
-    
     background-color: rgb(7, 32, 53);
     float: left;
     height: 100vh;
     position: fixed;
-    
 }
+
+.ms_sidebar span:hover{
+    background-color: lightgray;
+}
+
+
+.table tbody tr:hover{
+    background-color: lightgray;
+}
+
+
+
+
 
 .ms_img_side {
     max-width: 80px;
@@ -60,20 +69,12 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    
 }
-
-
 .ms_btn {
     background-color: rgb(13, 110, 253);
     border-radius: 5px;
     border: 1px solid white;
     padding: 5px 9px;
-
-
-
-
-
 }
 
 .fa-plus {
@@ -116,14 +117,7 @@
     width: 100%;
 }
 
-
-
-
-
-
-
 /* MEDIA QUERIES */
-
 @media screen and (max-width:576px) {
     nav .ms_img_desk {
         display: none;
@@ -159,12 +153,6 @@
         margin-top: 250px;
         
     }
-
-    
-
-
-
-
 }
 
 @media screen and (min-width:576px) {
@@ -199,17 +187,7 @@
         width: 100%;
         z-index: 99999;
     }
-
-      
-
-
-
-
-
-
 }
-
-
 
 @media screen and (min-width:768px) {
     nav .ms_img_desk {
@@ -243,9 +221,6 @@
     .ms_content .ms_app {
         display: none;
     }
-
- 
-
     .row  .ms_canvas {
         width: 100%;
          z-index: 99999;
